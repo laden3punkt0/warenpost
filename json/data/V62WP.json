@@ -10,5 +10,13 @@
   "weight": {
     "min": 0,
     "max": 1000
+  },
+  "prices": {
+    "0@DE": 2.96
+  },
+  "outlay": {
+    "return": 2.00,
+    "lapse":  2.00,
+    "fraud": 18.00
   }
 }
