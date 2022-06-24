@@ -1,4 +1,5 @@
 {
+  "title": "WarenPost InterNational",
   "sides": {
     "min": [140, 90,  1],
     "max": [353,250,100]
@@ -12,13 +13,25 @@
     "max": 1000
   },
   "prices": {
-    "1@EU": {"base": 2.32, "calc": 0.37},
-    "1!EU": {"base": 2.94, "calc": 0.53},
-    "2?EU": {"base": 2.18, "calc": 0.60},
-    "3@EU": {"base": 2.14, "calc": 0.64},
-    "3!EU": {"base": 2.89, "calc": 0.80},
-    "4!EU": {"base": 2.16, "calc": 0.90},
-    "5!EU": {"base": 2.47, "calc": 1.25},
-    "6!EU": {"base": 2.47, "calc": 1.31}
+    "standart": {
+      "1@EU": {"base": 2.32, "calc": 0.37},
+      "1!EU": {"base": 2.94, "calc": 0.53},
+      "2?EU": {"base": 2.18, "calc": 0.60},
+      "3@EU": {"base": 2.14, "calc": 0.64},
+      "3!EU": {"base": 2.89, "calc": 0.80},
+      "4!EU": {"base": 2.16, "calc": 0.90},
+      "5!EU": {"base": 2.47, "calc": 1.25},
+      "6!EU": {"base": 2.47, "calc": 1.31}
+    },
+    "premium": {
+      "1@EU": {"base": 4.45, "calc": 0.40},
+      "1!EU": {"base": 5.50, "calc": 0.56},
+      "2?EU": {"base": 4.06, "calc": 0.65},
+      "3@EU": {"base": 4.62, "calc": 0.65},
+      "3!EU": {"base": 4.53, "calc": 0.84},
+      "4!EU": {"base": 5.14, "calc": 0.76},
+      "5!EU": {"base": 4.43, "calc": 1.27},
+      "6!EU": {"base": 3.86, "calc": 1.33}
+    }
   }
 }
