@@ -1,8 +1,8 @@
 {
-  "title": "WarenPost National",
+  "title": "KleinPaket National",
   "sides": {
     "min": [100, 70,  1],
-    "max": [353,250, 50]
+    "max": [353,250, 80]
   },
   "volume": {
     "min": 0,
@@ -14,7 +14,7 @@
   },
   "prices": {
     "premium": {
-      "0@EU": 2.96
+      "0@EU": {"base": 3.23}
     }
   },
   "outlay": {
